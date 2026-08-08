@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+#Cal{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Well{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+    background-color: white;
+    height: 350px; 
+    width: 350px;
+    position: relative;
+    left: calc(50% - 175px);
+    margin-top: 25px;
+    border-radius: 5px;
+    
+}
+
+.input{
+    border: 2px solid;
+    border-color: #f3f3f3;
+    width: 300px;
+    height: 30px;
+    position:relative;
+    left:calc(50% - 150px);
+    margin-top: 10px;
+   
+}
+
+#pp{
+    padding:0px 25px;
+}
+
+.input input{
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    padding-top: 6px;
+}
+
+svg{
+    position: absolute;
+    right:10px ;
+    top: 5px;
+    fill: gray;
+}
+
+
+    
