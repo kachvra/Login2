@@ -21,7 +21,7 @@ body{
 
 .container{
     background-color: white;
-    height: 350px; 
+    height: 400px; 
     width: 350px;
     position: relative;
     left: calc(50% - 175px);
@@ -38,6 +38,7 @@ body{
     position:relative;
     left:calc(50% - 150px);
     margin-top: 10px;
+    border-radius: 5px;
    
 }
 
@@ -52,12 +53,91 @@ body{
     padding-top: 6px;
 }
 
+.passrow{
+    position: relative;
+}
+
+
+.for{
+    position: absolute;
+    right:10px;
+    top:0;
+    color: grey;
+    font: bold;   
+}
+
+
+
 svg{
     position: absolute;
     right:10px ;
     top: 5px;
     fill: gray;
 }
+
+#signin{
+
+    width:90%;
+    position: relative;
+    padding: 7px 10px;
+    margin-top: 25px;
+    left: calc(50% - 45%);
+    background-color: black;
+    color: white;
+    border-radius: 5PX;
+    border: none;
+
+
+}
+
+.line{
+    background-color: #f3f3f3;
+    height: 2px;
+    width: 90%;
+    position: relative;
+    left: calc(50% - 45%);
+    margin-top: 25px;
+
+}
+
+.google #but{
+    position: relative;
+    width: 90%;
+    height:36px;
+    margin-top: 25px;
+    left: calc(50% - 45%);
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #f3f3f3;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    padding-bottom: 7px;
+
+
+}
+
+.google svg{
+    position: relative;
+    left: 0;
+    margin-right: 9px;
+    fill: black;
+
+}
+
+.google span{
+    font-weight: bold;
+}
+
+.last{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+
+
 
 
     
