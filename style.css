@@ -21,7 +21,7 @@ body{
 
 .container{
     background-color: white;
-    height: 400px; 
+    height: 380px; 
     width: 350px;
     position: relative;
     left: calc(50% - 175px);
@@ -68,7 +68,7 @@ body{
 
 
 
-svg{
+.input svg{
     position: absolute;
     right:10px ;
     top: 5px;
@@ -77,11 +77,11 @@ svg{
 
 #signin{
 
-    width:90%;
+    width:300px;
     position: relative;
     padding: 7px 10px;
     margin-top: 25px;
-    left: calc(50% - 45%);
+    left: calc(50% - 150px);
     background-color: black;
     color: white;
     border-radius: 5PX;
@@ -93,41 +93,41 @@ svg{
 .line{
     background-color: #f3f3f3;
     height: 2px;
-    width: 90%;
+    width: 300px;
     position: relative;
-    left: calc(50% - 45%);
+    left: calc(50% - 150px);
     margin-top: 25px;
 
 }
 
-.google #but{
+.social{
     position: relative;
-    width: 90%;
-    height:36px;
+    width: 100%;
     margin-top: 25px;
-    left: calc(50% - 45%);
-    border-radius: 5px;
+}
+
+.social button{
+    width:300px;
+    position: relative;
+    padding:3px 0 ;
+    left: calc(50% - 150px);
+    background-color: transparent;
     border: 2px solid;
     border-color: #f3f3f3;
-    text-align: center;
-    background-color: white;
-    padding: 0;
-    padding-bottom: 7px;
-
-
-}
-
-.google svg{
-    position: relative;
-    left: 0;
-    margin-right: 9px;
-    fill: black;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 
 }
 
-.google span{
-    font-weight: bold;
+.social a {
+    text-decoration: none;
+
+
 }
+    
 
 .last{
     text-align: center;
